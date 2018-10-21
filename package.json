@@ -1,0 +1,39 @@
+{
+  "name": "cognition-app.github.io",
+  "version": "1.0.0",
+  "description": "Cognition website",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "browserify src/js/app.js -o dist/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognition-app/cognition-app.github.io.git"
+  },
+  "author": "Daniel J. B. Clarke <u8sand@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cognition-app/cognition-app.github.io/issues"
+  },
+  "homepage": "https://github.com/cognition-app/cognition-app.github.io#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "http-server": "^0.11.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
