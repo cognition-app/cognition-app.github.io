@@ -1,5 +1,5 @@
 {
-  "name": "cognition-app.github.io",
+  "name": "@cognition-app/cognition-app.github.io",
   "version": "1.0.0",
   "description": "Cognition website",
   "main": "index.js",
